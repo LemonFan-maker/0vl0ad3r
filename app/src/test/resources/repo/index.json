@@ -1,0 +1,327 @@
+{
+  "schema": 1,
+  "db": "0vl0ad3r.db.tar.zst",
+  "count": 18,
+  "packages": [
+    {
+      "name": "aria2",
+      "version": "1.37.0-1",
+      "description": "Download utility that supports HTTP(S), FTP, BitTorrent, and Metalink",
+      "filename": "aria2-1.37.0-1-aarch64.pkg.tar.zst",
+      "size": 714450,
+      "installedSize": 2303310,
+      "sha256": "553653d9d09f3c1617d1f8de38bf298b05a19397a707674390ae2b64aea84582",
+      "url": "https://aria2.github.io/",
+      "license": "GPL-2.0-or-later",
+      "arch": "aarch64",
+      "buildDate": 1792433278,
+      "packager": "0vl0ad3r Packager <packages@0vl0ad3r.org>",
+      "depends": [
+        "base-layout",
+        "ca-certificates",
+        "libc++",
+        "openssl",
+        "zlib"
+      ]
+    },
+    {
+      "name": "base-layout",
+      "version": "1.0.0-1",
+      "description": "0vl0ad3r基础文件系统层次结构与环境分流配置",
+      "filename": "base-layout-1.0.0-1-aarch64.pkg.tar.zst",
+      "size": 1719,
+      "installedSize": 1113,
+      "sha256": "e8f49f4cf18f1c1f1bd310f2f3f7fad83df835fbfe8d741972a8551ca3a4f18c",
+      "url": "https://github.com/LemonFan-maker/P4ck4g3s",
+      "license": "Apache-2.0",
+      "arch": "aarch64",
+      "buildDate": 1792433131,
+      "packager": "0vl0ad3r Packager <packages@0vl0ad3r.org>",
+      "depends": null
+    },
+    {
+      "name": "ca-certificates",
+      "version": "2024.09.24-1",
+      "description": "Common CA certificates - default providers",
+      "filename": "ca-certificates-2024.09.24-1-aarch64.pkg.tar.zst",
+      "size": 128118,
+      "installedSize": 234858,
+      "sha256": "61652e7aff3712a7366a85337dd52acf39f54b4c5e9095ffc63eecffad8402e5",
+      "url": "https://curl.se/docs/caextract.html",
+      "license": "MPL-2.0",
+      "arch": "aarch64",
+      "buildDate": 1792433133,
+      "packager": "0vl0ad3r Packager <packages@0vl0ad3r.org>",
+      "depends": [
+        "base-layout"
+      ]
+    },
+    {
+      "name": "curl",
+      "version": "8.23.0-1",
+      "description": "command line tool and library for transferring data with URLs",
+      "filename": "curl-8.23.0-1-aarch64.pkg.tar.zst",
+      "size": 221669,
+      "installedSize": 547268,
+      "sha256": "45c59c1f0b8573e4790ca347aad3b1722fcef5a4d8753056211c3e3deeb7045a",
+      "url": "https://curl.se/",
+      "license": "curl",
+      "arch": "aarch64",
+      "buildDate": 1792433134,
+      "packager": "0vl0ad3r Packager <packages@0vl0ad3r.org>",
+      "depends": [
+        "base-layout",
+        "ca-certificates",
+        "libcurl",
+        "openssl",
+        "zlib",
+        "zstd"
+      ]
+    },
+    {
+      "name": "libalpm",
+      "version": "7.1.0-1",
+      "description": "Arch Linux包管理器核心库libalpm",
+      "filename": "libalpm-7.1.0-1-aarch64.pkg.tar.zst",
+      "size": 82039,
+      "installedSize": 208904,
+      "sha256": "4f1268001cf63113d0b72e24b5264b148efaeb48aadda9af31045f76cef7b5d6",
+      "url": "https://0vl0ad3r.org/packages/libalpm",
+      "license": "custom",
+      "arch": "aarch64",
+      "buildDate": 1792433131,
+      "packager": "0vl0ad3r Packager <packages@0vl0ad3r.org>",
+      "depends": [
+        "libarchive",
+        "libcurl",
+        "openssl"
+      ]
+    },
+    {
+      "name": "libarchive",
+      "version": "3.8.10-1",
+      "description": "Multi-format archive and compression library",
+      "filename": "libarchive-3.8.10-1-aarch64.pkg.tar.zst",
+      "size": 334430,
+      "installedSize": 814368,
+      "sha256": "8edf2cd48ebcc6614e47a76de447c81d3b153dcf2ef78058ace605c9c3fbfda7",
+      "url": "https://0vl0ad3r.org/packages/libarchive",
+      "license": "custom",
+      "arch": "aarch64",
+      "buildDate": 1792433129,
+      "packager": "0vl0ad3r Packager <packages@0vl0ad3r.org>",
+      "depends": [
+        "openssl",
+        "xz",
+        "zlib",
+        "zstd"
+      ]
+    },
+    {
+      "name": "libc++",
+      "version": "21.0.0-1",
+      "description": "LLVM libc++共享运行时库",
+      "filename": "libc++-21.0.0-1-aarch64.pkg.tar.zst",
+      "size": 391257,
+      "installedSize": 1621433,
+      "sha256": "e405cec65b90dd0b6a9ec60e65304dcf7c00aa16926fc64b718b2411cf3375b4",
+      "url": "https://0vl0ad3r.org/packages/libc++",
+      "license": "custom",
+      "arch": "aarch64",
+      "buildDate": 1792433130,
+      "packager": "0vl0ad3r Packager <packages@0vl0ad3r.org>",
+      "depends": null
+    },
+    {
+      "name": "libcurl",
+      "version": "8.23.0-1",
+      "description": "libcurl传输库HTTP/FTP/TLS",
+      "filename": "libcurl-8.23.0-1-aarch64.pkg.tar.zst",
+      "size": 336749,
+      "installedSize": 826952,
+      "sha256": "15381cdb03bbda2d69591202f12024f68f7f62e827369c09185de39fbd502834",
+      "url": "https://0vl0ad3r.org/packages/libcurl",
+      "license": "custom",
+      "arch": "aarch64",
+      "buildDate": 1792433130,
+      "packager": "0vl0ad3r Packager <packages@0vl0ad3r.org>",
+      "depends": [
+        "openssl",
+        "zlib",
+        "zstd"
+      ]
+    },
+    {
+      "name": "nano",
+      "version": "9.2-1",
+      "description": "Pico editor clone with enhancements",
+      "filename": "nano-9.2-1-aarch64.pkg.tar.zst",
+      "size": 272399,
+      "installedSize": 944963,
+      "sha256": "ede4170766647402964ac2751e387f3f251d009ae6fd3dbff60d3c28ae4d457c",
+      "url": "https://www.nano-editor.org/",
+      "license": "GPL-3.0-or-later",
+      "arch": "aarch64",
+      "buildDate": 1792433298,
+      "packager": "0vl0ad3r Packager <packages@0vl0ad3r.org>",
+      "depends": [
+        "base-layout",
+        "ncurses",
+        "zlib"
+      ]
+    },
+    {
+      "name": "ncurses",
+      "version": "6.6-1",
+      "description": "System V Release 4.0 curses emulation library",
+      "filename": "ncurses-6.6-1-aarch64.pkg.tar.zst",
+      "size": 606417,
+      "installedSize": 3439938,
+      "sha256": "a89525c7b63367281b4b4231cf94eb125efc18973f8c67269303402a1b42b102",
+      "url": "https://invisible-island.net/ncurses/",
+      "license": "MIT",
+      "arch": "aarch64",
+      "buildDate": 1792433119,
+      "packager": "0vl0ad3r Packager <packages@0vl0ad3r.org>",
+      "depends": [
+        "base-layout"
+      ]
+    },
+    {
+      "name": "openssl",
+      "version": "3.6.5-1",
+      "description": "The Open Source toolkit for cryptography and Transport Layer Security",
+      "filename": "openssl-3.6.5-1-aarch64.pkg.tar.zst",
+      "size": 2457411,
+      "installedSize": 5795048,
+      "sha256": "150c7abc921c144eb309829438136da15fc4f7f479452cdf8ca8d8ee53c14ef0",
+      "url": "https://0vl0ad3r.org/packages/openssl",
+      "license": "custom",
+      "arch": "aarch64",
+      "buildDate": 1792433128,
+      "packager": "0vl0ad3r Packager <packages@0vl0ad3r.org>",
+      "depends": null
+    },
+    {
+      "name": "pacman",
+      "version": "7.1.0-1",
+      "description": "A library-based package manager with dependency support",
+      "filename": "pacman-7.1.0-1-aarch64.pkg.tar.zst",
+      "size": 346957,
+      "installedSize": 980920,
+      "sha256": "0596c497345bdc363478fbf7153b8065536c37971b2278c7130a4107ed3ea151",
+      "url": "https://github.com/LemonFan-maker/P4ck4g3s",
+      "license": "GPL-2.0-or-later",
+      "arch": "aarch64",
+      "buildDate": 1792433133,
+      "packager": "0vl0ad3r Packager <packages@0vl0ad3r.org>",
+      "depends": [
+        "base-layout",
+        "ca-certificates",
+        "libalpm",
+        "libarchive",
+        "xz"
+      ]
+    },
+    {
+      "name": "vi",
+      "version": "9.2.1178-1",
+      "description": "Vi文本编辑器接口",
+      "filename": "vi-9.2.1178-1-aarch64.pkg.tar.zst",
+      "size": 478,
+      "installedSize": 0,
+      "sha256": "aa540e87c771a8c677d1723f09fd1d99089199b6c0bd5f099ec39ce6a33da360",
+      "url": "https://github.com/LemonFan-maker/P4ck4g3s",
+      "license": "Apache-2.0",
+      "arch": "aarch64",
+      "buildDate": 1792433350,
+      "packager": "0vl0ad3r Packager <packages@0vl0ad3r.org>",
+      "depends": [
+        "vim"
+      ]
+    },
+    {
+      "name": "vim",
+      "version": "9.2.1178-1",
+      "description": "Vi Improved, a highly configurable, improved version of the vi text editor",
+      "filename": "vim-9.2.1178-1-aarch64.pkg.tar.zst",
+      "size": 7920001,
+      "installedSize": 33249976,
+      "sha256": "4bcca8daf3f98cd2fb9ca4fb86d0f1487ceeb37ffd510f57706591e42f57fb50",
+      "url": "https://www.vim.org/",
+      "license": "Vim",
+      "arch": "aarch64",
+      "buildDate": 1792433339,
+      "packager": "0vl0ad3r Packager <packages@0vl0ad3r.org>",
+      "depends": [
+        "base-layout",
+        "ncurses"
+      ]
+    },
+    {
+      "name": "wget",
+      "version": "1.25.0-1",
+      "description": "Network utility to retrieve files from the web",
+      "filename": "wget-1.25.0-1-aarch64.pkg.tar.zst",
+      "size": 271069,
+      "installedSize": 805396,
+      "sha256": "996f41395cff16fe2eca37fe8c90977c84dd6ea3955874017196a1bcb83eb77c",
+      "url": "https://www.gnu.org/software/wget/",
+      "license": "GPL-3.0-or-later",
+      "arch": "aarch64",
+      "buildDate": 1792433160,
+      "packager": "0vl0ad3r Packager <packages@0vl0ad3r.org>",
+      "depends": [
+        "base-layout",
+        "ca-certificates",
+        "openssl",
+        "zlib"
+      ]
+    },
+    {
+      "name": "xz",
+      "version": "5.8.4-1",
+      "description": "Library and command line tools for XZ and LZMA compressed files",
+      "filename": "xz-5.8.4-1-aarch64.pkg.tar.zst",
+      "size": 90720,
+      "installedSize": 175624,
+      "sha256": "e4421d2812355bb3e9a18f0f70494271519f9427eb7e4590e3d24d0f123dc31c",
+      "url": "https://0vl0ad3r.org/packages/xz",
+      "license": "custom",
+      "arch": "aarch64",
+      "buildDate": 1792433127,
+      "packager": "0vl0ad3r Packager <packages@0vl0ad3r.org>",
+      "depends": null
+    },
+    {
+      "name": "zlib",
+      "version": "1.3.2-1",
+      "description": "Compression library implementing the deflate compression method found in gzip and PKZIP",
+      "filename": "zlib-1.3.2-1-aarch64.pkg.tar.zst",
+      "size": 51171,
+      "installedSize": 100392,
+      "sha256": "f1dfee5c60cbfc3a6e3daaf44a4f556ab8e12ebf13527707f2cd9c3a29526793",
+      "url": "https://0vl0ad3r.org/packages/zlib",
+      "license": "custom",
+      "arch": "aarch64",
+      "buildDate": 1792433126,
+      "packager": "0vl0ad3r Packager <packages@0vl0ad3r.org>",
+      "depends": null
+    },
+    {
+      "name": "zstd",
+      "version": "1.5.7-1",
+      "description": "Zstandard - Fast real-time compression algorithm",
+      "filename": "zstd-1.5.7-1-aarch64.pkg.tar.zst",
+      "size": 222785,
+      "installedSize": 610224,
+      "sha256": "133af11773e79ef8e7f3c592bd4c9405d4a0c68ce92651d0a0117b0e254cad91",
+      "url": "https://0vl0ad3r.org/packages/zstd",
+      "license": "custom",
+      "arch": "aarch64",
+      "buildDate": 1792433127,
+      "packager": "0vl0ad3r Packager <packages@0vl0ad3r.org>",
+      "depends": null
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">0vl0ad3r</string>
+    <string name="app_subtitle">基於OverlayFS的模組載入器</string>
+
+    <!-- Tabs -->
+    <string name="tab_featured">探索</string>
+    <string name="tab_sources">軟體源</string>
+    <string name="tab_search">搜尋</string>
+    <string name="tab_installed">已安裝</string>
+    <string name="tab_terminal">終端</string>
+    <string name="tab_settings">設定</string>
+
+    <!-- Queue & Actions -->
+    <string name="action_get">取得</string>
+    <string name="action_queued">已排隊</string>
+    <string name="action_manage">管理</string>
+    <string name="action_system_managed">隨應用更新</string>
+    <string name="action_confirm">確認執行</string>
+    <string name="action_restart_zygote">重啟Zygote生效</string>
+    <string name="action_restart_zygote_apply">重啟Zygote生效</string>
+    <string name="action_done">完成</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_clear_queue">清空佇列</string>
+    <string name="action_install">安裝</string>
+    <string name="action_uninstall">解除安裝</string>
+    <string name="action_update">更新</string>
+    <string name="action_reinstall">重新安裝</string>
+    <string name="action_retry">重試</string>
+    <string name="action_expand">展開</string>
+    <string name="action_collapse">收起</string>
+    <string name="action_refresh">重新整理</string>
+    <string name="action_add_source">新增軟體源</string>
+    <string name="action_edit">編輯</string>
+    <string name="action_delete">刪除</string>
+
+    <!-- Package Actions -->
+    <string name="package_actions_title">管理套件</string>
+    <string name="package_actions_update_subtitle">加入更新佇列，重新下載並覆蓋目前版本</string>
+    <string name="package_actions_uninstall_subtitle">加入解除安裝佇列，執行後從系統中移除</string>
+    <string name="package_actions_queued">目前佇列：%1$s</string>
+    <string name="package_actions_dequeue">取消佇列</string>
+
+    <!-- Queue Dock -->
+    <string name="queue_title">佇列</string>
+    <string name="queue_empty">佇列為空</string>
+    <string name="queue_task_count">共%1$d個任務</string>
+    <string name="queue_summary">共%1$d項待處理</string>
+    <string name="queue_executing">正在執行</string>
+    <string name="queue_pending">等待中</string>
+    <string name="queue_status_installing">正在安裝%1$s</string>
+    <string name="queue_status_uninstalling">正在解除安裝%1$s</string>
+
+    <!-- Status & Results -->
+    <string name="status_success">安裝成功</string>
+    <string name="status_failure">安裝失敗</string>
+    <string name="status_uninstall_success">解除安裝成功</string>
+    <string name="status_uninstall_failure">解除安裝失敗</string>
+    <string name="status_running">執行中</string>
+    <string name="status_ready">已就緒</string>
+    <string name="status_error">發生錯誤</string>
+    <string name="status_downloading">正在下載</string>
+    <string name="status_extracting">正在解壓</string>
+    <string name="status_mounting">正在掛載</string>
+    <string name="status_syncing">同步儲存中</string>
+
+    <!-- Daemon & System -->
+    <string name="daemon_connected">服務已連線</string>
+    <string name="daemon_disconnected">服務未連線</string>
+    <string name="daemon_connecting">正在連線服務</string>
+    <string name="root_active">Root權限正常</string>
+    <string name="root_inactive">Root權限缺失</string>
+    <string name="kernel_version">核心版本</string>
+    <string name="overlay_status">OverlayFS狀態</string>
+    <string name="partition_system">系統分區</string>
+    <string name="partition_vendor">廠商分區</string>
+    <string name="partition_product">產品分區</string>
+    <string name="partition_mounted">已掛載</string>
+    <string name="partition_unmounted">未掛載</string>
+    <string name="free_space">剩餘空間</string>
+
+    <!-- Themes & Settings -->
+    <string name="settings_theme_ui">介面主題</string>
+    <string name="settings_theme_terminal">終端配色</string>
+    <string name="settings_about">關於</string>
+    <string name="settings_language">語言</string>
+    <string name="settings_ui_theme_title">應用主題配色</string>
+    <string name="settings_terminal_theme_title">終端主控台配色</string>
+    <string name="settings_language_title">顯示語言</string>
+    <string name="theme_sakura">櫻粉</string>
+    <string name="theme_beige">淺米</string>
+    <string name="theme_slate">灰韻</string>
+    <string name="theme_cyber">暗黑</string>
+    <string name="theme_matcha">抹茶</string>
+    <string name="theme_nord">極光</string>
+    <string name="terminal_theme_parchment">米白</string>
+    <string name="terminal_theme_matrix">黑客</string>
+    <string name="terminal_theme_solarized">淺金</string>
+    <string name="terminal_theme_monokai">暗彩</string>
+    <string name="terminal_theme_custom">自訂</string>
+    <string name="haptic_off">關閉</string>
+    <string name="haptic_weak">微弱</string>
+    <string name="haptic_std">標準</string>
+    <string name="haptic_strong">強力</string>
+
+    <!-- Search & Details -->
+    <string name="search_hint">搜尋</string>
+    <string name="search_empty">未找到相關模組</string>
+    <string name="module_details">模組詳情</string>
+    <string name="module_author">作者</string>
+    <string name="module_version">版本</string>
+    <string name="module_size">大小</string>
+    <string name="module_description">描述</string>
+    <string name="module_compatibility">相容性</string>
+    <string name="module_dependencies">相依項目</string>
+    <string name="module_installed_count">共%1$d個已安裝模組</string>
+    <string name="terminal_title">執行記錄</string>
+    <string name="terminal_clear">清除畫面</string>
+
+    <!-- Settings & Themes -->
+    <string name="settings_group_appearance">外觀與個人化</string>
+    <string name="settings_theme_ui_subtitle">切換應用程式全域色彩風格</string>
+    <string name="settings_theme_terminal_subtitle">主控台語法高亮與輸出配色</string>
+    <string name="settings_group_general">一般與區域</string>
+    <string name="settings_language_row">語言設定</string>
+    <string name="settings_language_subtitle">選擇介面顯示語言</string>
+    <string name="settings_haptic_title">觸覺回饋</string>
+    <string name="settings_haptic_subtitle">介面互動與手勢震動體驗</string>
+    <string name="settings_group_runtime">執行環境與儲存空間</string>
+    <string name="settings_partitions_refreshed">分區掛載狀態已重新整理</string>
+    <string name="settings_restart_desktop_title">重新啟動桌面框架(sbreload)</string>
+    <string name="settings_restart_desktop_subtitle">軟體重新啟動SystemServer以套用OverlayFS修改</string>
+    <string name="settings_action_restart">重新啟動</string>
+    <string name="settings_sync_storage_title">同步實體儲存(sync)</string>
+    <string name="settings_sync_storage_subtitle">呼叫sync回寫ext4映像檔與底層區塊裝置</string>
+    <string name="settings_action_sync">同步</string>
+    <string name="settings_sync_in_progress">正在同步實體儲存...</string>
+    <string name="settings_sync_success">實體儲存同步完成(sync已回寫)</string>
+    <string name="settings_sync_failure">實體儲存同步失敗(底層服務異常)</string>
+    <string name="settings_about_app">關於%1$s</string>
+    <string name="settings_version">版本1.0.0-bionic (Build 20260927)</string>
+    <string name="settings_restart_desktop_dialog_title">重新啟動桌面框架</string>
+    <string name="settings_restart_desktop_dialog_message">確定要重新載入Zygote與桌面框架嗎？此操作會導致螢幕短暫黑屏2~3秒，用於讓新的OverlayFS模組立即生效。</string>
+    <string name="settings_zygote_sending">正在傳送Zygote重新啟動指令...</string>
+    <string name="settings_zygote_sent">桌面框架重新啟動指令已送出</string>
+    <string name="settings_zygote_failed">桌面框架重新啟動失敗(服務未連線)</string>
+    <string name="settings_confirm_restart">確認重新啟動</string>
+    <string name="settings_back">返回</string>
+    <string name="settings_header_subtitle">個人化外觀與底層VFS管理</string>
+    <string name="settings_status_root_alive">活躍(Root存活)</string>
+    <string name="settings_status_not_root">未提權</string>
+    <string name="settings_status_disconnected">未連線</string>
+    <string name="settings_status_root_alive_desc">服務連線正常，Root提權存活</string>
+    <string name="settings_status_connected_no_root_desc">服務已連線，未取得Root權限</string>
+    <string name="settings_status_disconnected_desc">AIDL守護服務未連線</string>
+    <string name="settings_service_status_title">AIDL服務與Root狀態</string>
+    <string name="settings_overlay_mount_status">OverlayFS掛載狀態</string>
+    <string name="settings_refresh_status">重新整理狀態</string>
+    <string name="settings_dialog_theme_title">選擇介面主題</string>
+    <string name="settings_dialog_terminal_theme_title">選擇終端配色</string>
+    <string name="settings_dialog_language_title">選擇語言</string>
+    <string name="theme_sakura_short">櫻花</string>
+    <string name="theme_beige_short">燕麥</string>
+    <string name="theme_slate_short">板岩</string>
+    <string name="theme_cyber_short">賽博</string>
+    <string name="theme_matcha_short">抹茶</string>
+    <string name="theme_nord_short">北歐</string>
+    <string name="theme_sakura_full">櫻花粉(Sakura)</string>
+    <string name="theme_beige_full">燕麥米(Beige)</string>
+    <string name="theme_slate_full">板岩灰(Slate)</string>
+    <string name="theme_cyber_full">賽博朋克(Cyber)</string>
+    <string name="theme_matcha_full">抹茶綠(Matcha)</string>
+    <string name="theme_nord_full">極地北歐(Nord)</string>
+    <string name="terminal_theme_parchment_full">羊皮紙(Parchment)</string>
+    <string name="terminal_theme_matrix_full">駭客矩陣(Matrix)</string>
+    <string name="terminal_theme_solarized_full">日光暖調(Solarized)</string>
+    <string name="terminal_theme_monokai_full">經典Monokai(Monokai)</string>
+
+    <!-- Discovery & Installed -->
+    <string name="featured_subtitle">OverlayFS免解鎖模組分發平台</string>
+    <string name="featured_section_toolchains">精選原生工具鏈</string>
+    <string name="featured_empty_catalog">還沒有同步任何軟體源，請先到「軟體源」頁重新整理一次</string>
+    <string name="search_category_all">全部</string>
+    <string name="installed_empty">暫無已安裝模組</string>
+    <string name="installed_update_all">更新全部(%1$d)</string>
+    <string name="installed_filter_all">全部</string>
+    <string name="installed_filter_user">使用者</string>
+    <string name="installed_filter_system">系統</string>
+
+    <!-- Package Details & About -->
+    <string name="about_section_runtime">執行環境</string>
+    <string name="about_label_device">目標機型</string>
+    <string name="about_label_os">系統版本</string>
+    <string name="about_label_kernel">Linux核心</string>
+    <string name="about_label_root_base">提權底座</string>
+    <string name="about_volatile_root">易失性Root</string>
+    <string name="about_section_architecture">核心架構</string>
+    <string name="about_label_virtual_fs">虛擬檔案系統</string>
+    <string name="about_label_package_manager">套件管理器</string>
+    <string name="about_package_manager_model">ALPM/pacman模型</string>
+    <string name="about_label_runtime_prefix">執行階段前綴</string>
+    <string name="about_section_credits">致敬與開源專案</string>
+    <string name="about_credit_sileo">現代iOS套件管理器介面與互動靈感</string>
+    <string name="about_credit_arch">底層套件管理哲學與pacman格式</string>
+    <string name="about_credit_termux">Android原生環境與Bionic編譯支援</string>
+    <string name="about_credit_kernelsu">基於核心空間的無痕提權理念</string>
+    <string name="about_section_license">軟體授權</string>
+    <string name="about_label_open_source_license">開源授權</string>
+    <string name="about_license_word">授權</string>
+    <string name="about_label_project_focus">專案定位</string>
+    <string name="about_value_project_focus">免解鎖OverlayFS研究與工程化驗證</string>
+    <string name="about_label_copyright">版權歸屬</string>
+    <string name="about_footer_tagline">以熱情投入免解鎖Android的探索</string>
+    <string name="about_action_back">返回</string>
+    <string name="about_version_build">%1$s (建置 %2$d)</string>
+    <string name="about_tagline">針對現代Android系統的免解鎖OverlayFS軟體套件管理器</string>
+    <string name="detail_spec_architecture">架構</string>
+    <string name="detail_spec_package_size">安裝包大小</string>
+    <string name="detail_default_author">0vl0ad3r團隊</string>
+    <string name="detail_spec_target_partition">目標分區</string>
+    <string name="detail_spec_license">授權條款</string>
+    <string name="detail_spec_homepage">專案首頁</string>
+    <string name="detail_spec_runtime_requirement">執行階段需求</string>
+    <string name="detail_runtime_reboot">需重新啟動系統</string>
+    <string name="detail_runtime_refresh_icons">重新整理桌面圖示</string>
+    <string name="detail_runtime_none">無額外要求</string>
+    <string name="detail_changelog_header">## v%1$s</string>
+    <string name="detail_changelog_item_overlayfs">適配Android15/16無損OverlayFS環境</string>
+    <string name="detail_changelog_item_rpath">注入RPATH相對路徑以支援私有lib64庫</string>
+    <string name="detail_changelog_item_debug_symbols">移除冗餘除錯符號以縮減體積</string>
+    <string name="detail_preview_title">功能預覽</string>
+    <string name="detail_preview_placeholder">預覽圖%1$s</string>
+    <string name="detail_specs_title">規格資訊</string>
+    <string name="detail_changelog_title">更新紀錄</string>
+
+    <!-- Sources & Queue -->
+    <string name="sources_default_official">0vl0ad3r官方核心源</string>
+    <string name="sources_default_mirror">GitHubRelease兜底源</string>
+    <string name="sources_never_synced">尚未同步</string>
+    <string name="sources_sync_progress">已同步%1$s</string>
+    <string name="sources_sync_failed">%1$d個源同步失敗</string>
+    <string name="sources_subtitle">已設定並生效的軟體源列表</string>
+    <string name="sources_official_badge">官方源</string>
+    <string name="sources_index_only_badge">僅索引</string>
+    <string name="sources_sync_summary">%1$d個軟體套件·上次同步%2$s</string>
+    <string name="sources_add_dialog_hint">輸入軟體源ALPM映像倉庫根位址（僅支援HTTPS）：</string>
+    <string name="sources_error_https_only">軟體源必須使用HTTPS位址</string>
+    <string name="queue_download_size">預估下載容量</string>
+    <string name="queue_dependency_tag">(依賴)</string>
+    <string name="sources_custom_name">自訂源</string>
+
+    <!-- Execution Engine -->
+    <string name="execution_preparing">準備執行</string>
+    <string name="execution_failed_exit">執行結束代碼%1$d</string>
+    <string name="execution_cancelled">使用者取消執行</string>
+    <string name="execution_error">執行異常</string>
+    <string name="execution_source_missing">沒有可用的 HTTPS 軟體源，請先在軟體源頁重新整理</string>
+    <string name="execution_packages_missing">軟體源中找不到以下套件：%1$s</string>
+    <string name="execution_download_start">[下載] %1$s（%2$d/%3$d）</string>
+    <string name="execution_download_progress">[下載] %1$s %2$s / %3$s</string>
+    <string name="execution_download_done">[校驗] %1$s sha256 通過（%2$s）</string>
+    <string name="execution_local_install">[安裝] 本地事務共 %1$d 個套件</string>
+    <string name="execution_stage_packages">[安裝] 套件暫存到 %1$s</string>
+    <string name="queue_bootstrap_required">請先部署自舉底座，再執行安裝佇列</string>
+    <string name="queue_root_required">需要 Root 權限才能執行安裝佇列</string>
+
+    <!-- Global Toasts -->
+    <string name="toast_theme_applied">已套用%1$s主題</string>
+    <string name="toast_terminal_theme_applied">終端配色已生效</string>
+    <string name="toast_language_changed">語言已切換</string>
+    <string name="toast_package_queued">已將%1$s加入下載佇列</string>
+    <string name="toast_package_remove_queued">已將%1$s加入解除安裝佇列</string>
+    <string name="toast_system_package_managed">系統套件隨應用程式更新，不能單獨安裝或解除安裝</string>
+    <string name="toast_package_dequeued">已將%1$s移出下載佇列</string>
+    <string name="toast_queue_cleared">佇列已清空</string>
+    <string name="toast_sources_refreshed">軟體源列表已更新</string>
+    <string name="toast_source_added">軟體源已新增</string>
+    <string name="toast_version_copied">版本資訊已複製到剪貼簿</string>
+
+    <!-- Bootstrap Runtime -->
+    <string name="bootstrap_status_title">自舉底座</string>
+    <string name="bootstrap_status_ready">已就緒(%1$s)</string>
+    <string name="bootstrap_status_not_installed">未部署</string>
+    <string name="bootstrap_status_corrupted">底座檔案損毀/不完整</string>
+    <string name="bootstrap_status_label">底座狀態</string>
+    <string name="bootstrap_action_install">釋放底座</string>
+    <string name="bootstrap_action_reinstall">重新釋放</string>
+    <string name="bootstrap_action_install_now">立即部署</string>
+    <string name="bootstrap_action_repair">修復並重新部署</string>
+    <string name="bootstrap_toast_installing">正在部署自舉底座至/system/0vl0ad3r...</string>
+    <string name="bootstrap_toast_success">自舉底座部署成功(%1$s)</string>
+    <string name="bootstrap_toast_failed">自舉底座部署失敗: %1$s</string>
+    <string name="bootstrap_auto_deploying">檢測到底座缺失，正在自動部署自舉底座...</string>
+    <string name="bootstrap_modal_title">底座</string>
+    <string name="bootstrap_modal_subtitle">Arch Linux ALPM底座(Pacman 7.1.0/Bionic深度最佳化)</string>
+    <string name="bootstrap_log_idle_hint">[*] 等待開始自舉部署任務...\n[*] 點擊下方「立即部署」開始向系統寫入底座</string>
+    <string name="bootstrap_log_corrupted_hint">[-] 檢測到底座關鍵檔案損毀或缺少動態庫\n[*] 點擊下方「修復並重新部署」執行清理與覆寫</string>
+    <string name="bootstrap_deploying_label">正在寫入系統分區...</string>
+    <string name="bootstrap_deploy_success_hint">底座部署完成，套件管理環境已就緒</string>
+    <string name="bootstrap_terminal_title">root@0vl0ad3r: ~# /system/0vl0ad3r</string>
+
+    <!-- Ghost Cleanup -->
+    <string name="settings_clean_ghost_title">清理死鎖與幽靈快取</string>
+    <string name="settings_clean_ghost_subtitle">清除db.lck事務鎖與未完成下載的.part暫存檔</string>
+    <string name="settings_action_clean">立即清理</string>
+
+    <!-- Bootstrap Deletion -->
+    <string name="settings_delete_bootstrap_title">刪除底座</string>
+    <string name="settings_delete_bootstrap_subtitle">依據whiteout清單安全移除底座檔案，保留其他資料</string>
+    <string name="settings_action_delete">刪除</string>
+    <string name="dialog_delete_bootstrap_title">確認刪除底座？</string>
+    <string name="dialog_delete_bootstrap_message">此操作將依據whiteout清單精準移除底層pacman與基礎庫，不會刪除已安裝的其他套件。完成後whiteout清單本身也將被移除。</string>
+    <string name="dialog_action_delete_confirm">確定刪除</string>
+    <string name="toast_deleting_bootstrap">正在依據whiteout清單刪除底座...</string>
+</resources>

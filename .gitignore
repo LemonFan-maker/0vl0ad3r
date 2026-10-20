@@ -1,0 +1,17 @@
+*.iml
+.gradle
+.kotlin/
+app/build/
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+*.apk
+*.aab
+# 调试期屏幕截图, 非交付物
+/*.png
+# 内部设计文档, 只保留在本地
+/DESIGN.md

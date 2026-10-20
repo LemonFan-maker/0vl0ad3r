@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">0vl0ad3r</string>
+    <string name="app_subtitle">OverlayFS-based Module Loader</string>
+
+    <!-- Tabs -->
+    <string name="tab_featured">Featured</string>
+    <string name="tab_sources">Sources</string>
+    <string name="tab_search">Search</string>
+    <string name="tab_installed">Installed</string>
+    <string name="tab_terminal">Terminal</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- Queue & Actions -->
+    <string name="action_get">GET</string>
+    <string name="action_queued">QUEUED</string>
+    <string name="action_manage">MANAGE</string>
+    <string name="action_system_managed">APP-MANAGED</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_restart_zygote">Restart Zygote</string>
+    <string name="action_restart_zygote_apply">Restart Zygote to Apply</string>
+    <string name="action_done">Done</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_clear_queue">Clear Queue</string>
+    <string name="action_install">Install</string>
+    <string name="action_uninstall">Uninstall</string>
+    <string name="action_update">Update</string>
+    <string name="action_reinstall">Reinstall</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_expand">Expand</string>
+    <string name="action_collapse">Collapse</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_add_source">Add Source</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+
+    <!-- Package Actions -->
+    <string name="package_actions_title">Manage Package</string>
+    <string name="package_actions_update_subtitle">Queue an update and replace the current version</string>
+    <string name="package_actions_uninstall_subtitle">Queue removal from the system</string>
+    <string name="package_actions_queued">Queued: %1$s</string>
+    <string name="package_actions_dequeue">Remove from queue</string>
+
+    <!-- Queue Dock -->
+    <string name="queue_title">Queue</string>
+    <string name="queue_empty">Queue is empty</string>
+    <string name="queue_task_count">%1$d tasks queued</string>
+    <string name="queue_summary">%1$d items pending</string>
+    <string name="queue_executing">Executing</string>
+    <string name="queue_pending">Pending</string>
+    <string name="queue_status_installing">Installing %1$s</string>
+    <string name="queue_status_uninstalling">Uninstalling %1$s</string>
+
+    <!-- Status & Results -->
+    <string name="status_success">Installed Successfully</string>
+    <string name="status_failure">Installation Failed</string>
+    <string name="status_uninstall_success">Uninstalled Successfully</string>
+    <string name="status_uninstall_failure">Uninstallation Failed</string>
+    <string name="status_running">Running</string>
+    <string name="status_ready">Ready</string>
+    <string name="status_error">Error Occurred</string>
+    <string name="status_downloading">Downloading</string>
+    <string name="status_extracting">Extracting</string>
+    <string name="status_mounting">Mounting</string>
+    <string name="status_syncing">Syncing Storage</string>
+
+    <!-- Daemon & System -->
+    <string name="daemon_connected">Daemon Connected</string>
+    <string name="daemon_disconnected">Daemon Disconnected</string>
+    <string name="daemon_connecting">Connecting to Daemon</string>
+    <string name="root_active">Root Active</string>
+    <string name="root_inactive">Root Inactive</string>
+    <string name="kernel_version">Kernel Version</string>
+    <string name="overlay_status">OverlayFS Status</string>
+    <string name="partition_system">System Partition</string>
+    <string name="partition_vendor">Vendor Partition</string>
+    <string name="partition_product">Product Partition</string>
+    <string name="partition_mounted">Mounted</string>
+    <string name="partition_unmounted">Unmounted</string>
+    <string name="free_space">Free Space</string>
+
+    <!-- Themes & Settings -->
+    <string name="settings_theme_ui">UI Theme</string>
+    <string name="settings_theme_terminal">Terminal Theme</string>
+    <string name="settings_about">About</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_ui_theme_title">UI Theme Palette</string>
+    <string name="settings_terminal_theme_title">Terminal Theme</string>
+    <string name="settings_language_title">Display Language</string>
+    <string name="theme_sakura">Sakura</string>
+    <string name="theme_beige">Beige</string>
+    <string name="theme_slate">Slate</string>
+    <string name="theme_cyber">Cyber</string>
+    <string name="theme_matcha">Matcha</string>
+    <string name="theme_nord">Nord</string>
+    <string name="terminal_theme_parchment">Parchment</string>
+    <string name="terminal_theme_matrix">Matrix</string>
+    <string name="terminal_theme_solarized">Solarized</string>
+    <string name="terminal_theme_monokai">Monokai</string>
+    <string name="terminal_theme_custom">Custom</string>
+    <string name="dialog_custom_term_title">Custom Terminal Colors</string>
+    <string name="dialog_custom_term_bg">Terminal Background (Hex)</string>
+    <string name="dialog_custom_term_fg">Terminal Text (Hex)</string>
+    <string name="dialog_custom_term_preset">Recommended Presets</string>
+    <string name="btn_apply_term_theme">Apply &amp; Save</string>
+    <string name="toast_custom_term_applied">Custom terminal colors applied</string>
+    <string name="toast_custom_term_invalid">Invalid color code. Use hex format like #1E1E2E.</string>
+    <string name="haptic_off">Off</string>
+    <string name="haptic_weak">Light</string>
+    <string name="haptic_std">Medium</string>
+    <string name="haptic_strong">Strong</string>
+
+    <!-- Search & Details -->
+    <string name="search_hint">Search</string>
+    <string name="search_empty">No modules found</string>
+    <string name="module_details">Module Details</string>
+    <string name="module_author">Author</string>
+    <string name="module_version">Version</string>
+    <string name="module_size">Size</string>
+    <string name="module_description">Description</string>
+    <string name="module_compatibility">Compatibility</string>
+    <string name="module_dependencies">Dependencies</string>
+    <string name="module_installed_count">%1$d modules installed</string>
+    <string name="terminal_title">Execution Log</string>
+    <string name="terminal_clear">Clear</string>
+
+    <!-- Settings & Themes -->
+    <string name="settings_group_appearance">Appearance &amp; Personalization</string>
+    <string name="settings_theme_ui_subtitle">Switch the app\'s global color style</string>
+    <string name="settings_theme_terminal_subtitle">Console syntax highlighting and output colors</string>
+    <string name="settings_group_general">General &amp; Region</string>
+    <string name="settings_language_row">Language Settings</string>
+    <string name="settings_language_subtitle">Choose the interface display language</string>
+    <string name="settings_haptic_title">Haptic Feedback</string>
+    <string name="settings_haptic_subtitle">Interface interaction and gesture vibration</string>
+    <string name="settings_group_runtime">Runtime &amp; Storage</string>
+    <string name="settings_partitions_refreshed">Partition mount status refreshed</string>
+    <string name="settings_restart_desktop_title">Restart Desktop Framework (sbreload)</string>
+    <string name="settings_restart_desktop_subtitle">Soft-restart SystemServer to apply OverlayFS changes</string>
+    <string name="settings_action_restart">Restart</string>
+    <string name="settings_sync_storage_title">Sync Physical Storage (sync)</string>
+    <string name="settings_sync_storage_subtitle">Call sync to write back the ext4 image and the underlying block device</string>
+    <string name="settings_action_sync">Sync</string>
+    <string name="settings_sync_in_progress">Syncing physical storage...</string>
+    <string name="settings_sync_success">Physical storage sync complete (sync has written back)</string>
+    <string name="settings_sync_failure">Physical storage sync failed (underlying service error)</string>
+    <string name="settings_about_app">About %1$s</string>
+    <string name="settings_version">Version 1.0.0-bionic (Build 20260927)</string>
+    <string name="settings_restart_desktop_dialog_title">Restart Desktop Framework</string>
+    <string name="settings_restart_desktop_dialog_message">Are you sure you want to reload Zygote and the desktop framework? The screen will briefly go black for 2~3 seconds so that the new OverlayFS modules take effect immediately.</string>
+    <string name="settings_zygote_sending">Sending the Zygote restart command...</string>
+    <string name="settings_zygote_sent">Desktop framework restart command has been sent</string>
+    <string name="settings_zygote_failed">Desktop framework restart failed (service not connected)</string>
+    <string name="settings_confirm_restart">Confirm Restart</string>
+    <string name="settings_back">Back</string>
+    <string name="settings_header_subtitle">Personalize the look and manage the underlying VFS</string>
+    <string name="settings_status_root_alive">Active (Root alive)</string>
+    <string name="settings_status_not_root">Not rooted</string>
+    <string name="settings_status_disconnected">Disconnected</string>
+    <string name="settings_status_root_alive_desc">Service connected, Root access alive</string>
+    <string name="settings_status_connected_no_root_desc">Service connected, Root permission not obtained</string>
+    <string name="settings_status_disconnected_desc">AIDL daemon service not connected</string>
+    <string name="settings_service_status_title">AIDL Service &amp; Root Status</string>
+    <string name="settings_overlay_mount_status">OverlayFS Mount Status</string>
+    <string name="settings_refresh_status">Refresh status</string>
+    <string name="settings_dialog_theme_title">Select UI Theme</string>
+    <string name="settings_dialog_terminal_theme_title">Select Terminal Theme</string>
+    <string name="settings_dialog_language_title">Select Language</string>
+    <string name="theme_sakura_short">Sakura</string>
+    <string name="theme_beige_short">Beige</string>
+    <string name="theme_slate_short">Slate</string>
+    <string name="theme_cyber_short">Cyber</string>
+    <string name="theme_matcha_short">Matcha</string>
+    <string name="theme_nord_short">Nord</string>
+    <string name="theme_sakura_full">Sakura</string>
+    <string name="theme_beige_full">Beige</string>
+    <string name="theme_slate_full">Slate</string>
+    <string name="theme_cyber_full">Cyber</string>
+    <string name="theme_matcha_full">Matcha</string>
+    <string name="theme_nord_full">Nord</string>
+    <string name="terminal_theme_parchment_full">Parchment</string>
+    <string name="terminal_theme_matrix_full">Matrix</string>
+    <string name="terminal_theme_solarized_full">Solarized</string>
+    <string name="terminal_theme_monokai_full">Monokai</string>
+
+    <!-- Discovery & Installed -->
+    <string name="featured_subtitle">OverlayFS module distribution without unlocking</string>
+    <string name="featured_section_toolchains">Curated native toolchains</string>
+    <string name="featured_empty_catalog">No repository synced yet. Refresh one on the Sources tab first.</string>
+    <string name="search_category_all">All</string>
+    <string name="installed_empty">No modules installed yet</string>
+    <string name="installed_update_all">Update all (%1$d)</string>
+    <string name="installed_filter_all">All</string>
+    <string name="installed_filter_user">User</string>
+    <string name="installed_filter_system">System</string>
+
+    <!-- Package Details & About -->
+    <string name="about_section_runtime">Runtime Environment</string>
+    <string name="about_label_device">Device Model</string>
+    <string name="about_label_os">OS Version</string>
+    <string name="about_label_kernel">Linux Kernel</string>
+    <string name="about_label_root_base">Root Base</string>
+    <string name="about_volatile_root">Volatile Root</string>
+    <string name="about_section_architecture">Core Architecture</string>
+    <string name="about_label_virtual_fs">Virtual Filesystem</string>
+    <string name="about_label_package_manager">Package Manager</string>
+    <string name="about_package_manager_model">ALPM/pacman model</string>
+    <string name="about_label_runtime_prefix">Runtime Prefix</string>
+    <string name="about_section_credits">Credits and Open Source</string>
+    <string name="about_credit_sileo">Interface and interaction inspiration from a modern iOS package manager</string>
+    <string name="about_credit_arch">Package management philosophy and the pacman format</string>
+    <string name="about_credit_termux">Native Android environment and Bionic build support</string>
+    <string name="about_credit_kernelsu">Traceless root philosophy built on kernel space</string>
+    <string name="about_section_license">Licenses</string>
+    <string name="about_label_open_source_license">Open Source License</string>
+    <string name="about_license_word">License</string>
+    <string name="about_label_project_focus">Project Focus</string>
+    <string name="about_value_project_focus">Unlock-free OverlayFS research and engineering validation</string>
+    <string name="about_label_copyright">Copyright</string>
+    <string name="about_footer_tagline">Crafted with passion for rootless Android exploration</string>
+    <string name="about_action_back">Back</string>
+    <string name="about_version_build">%1$s (Build %2$d)</string>
+    <string name="about_tagline">An unlock-free OverlayFS package manager for modern Android</string>
+    <string name="detail_spec_architecture">Architecture</string>
+    <string name="detail_spec_package_size">Package Size</string>
+    <string name="detail_default_author">0vl0ad3r Team</string>
+    <string name="detail_spec_target_partition">Target Partition</string>
+    <string name="detail_spec_license">License</string>
+    <string name="detail_spec_homepage">Homepage</string>
+    <string name="detail_spec_runtime_requirement">Runtime Requirement</string>
+    <string name="detail_runtime_reboot">System reboot required</string>
+    <string name="detail_runtime_refresh_icons">Refresh launcher icons</string>
+    <string name="detail_runtime_none">No extra requirements</string>
+    <string name="detail_changelog_header">## v%1$s</string>
+    <string name="detail_changelog_item_overlayfs">Support lossless OverlayFS environments on Android15/16</string>
+    <string name="detail_changelog_item_rpath">Inject RPATH relative paths to support private lib64 libraries</string>
+    <string name="detail_changelog_item_debug_symbols">Strip redundant debug symbols to reduce size</string>
+    <string name="detail_preview_title">Feature Preview</string>
+    <string name="detail_preview_placeholder">Screenshot %1$s</string>
+    <string name="detail_specs_title">Specifications</string>
+    <string name="detail_changelog_title">Changelog</string>
+
+    <!-- Sources & Queue -->
+    <string name="sources_default_official">0vl0ad3r Official Core Repository</string>
+    <string name="sources_default_mirror">GitHub Release Mirror</string>
+    <string name="sources_never_synced">Not synced yet</string>
+    <string name="sources_sync_progress">Synced %1$s</string>
+    <string name="sources_sync_failed">%1$d sources failed to sync</string>
+    <string name="sources_subtitle">Configured and active package repositories</string>
+    <string name="sources_official_badge">Official</string>
+    <string name="sources_index_only_badge">Index only</string>
+    <string name="sources_sync_summary">%1$d packages · last synced %2$s</string>
+    <string name="sources_add_dialog_hint">Enter the root URL of an ALPM package repository (HTTPS only):</string>
+    <string name="sources_error_https_only">Package repositories must use an HTTPS URL</string>
+    <string name="queue_download_size">Estimated download size</string>
+    <string name="queue_dependency_tag">(Dependency)</string>
+    <string name="sources_custom_name">Custom repository</string>
+
+    <!-- Execution Engine -->
+    <string name="execution_preparing">Preparing</string>
+    <string name="execution_failed_exit">Execution exited with code %1$d</string>
+    <string name="execution_cancelled">Execution cancelled by user</string>
+    <string name="execution_error">Execution error</string>
+    <string name="execution_source_missing">No HTTPS repository available. Refresh sources first.</string>
+    <string name="execution_packages_missing">Packages not found in any repository: %1$s</string>
+    <string name="execution_download_start">[download] %1$s (%2$d/%3$d)</string>
+    <string name="execution_download_progress">[download] %1$s %2$s / %3$s</string>
+    <string name="execution_download_done">[verify] %1$s sha256 ok (%2$s)</string>
+    <string name="execution_local_install">[install] local transaction with %1$d package(s)</string>
+    <string name="execution_stage_packages">[install] packages staged in %1$s</string>
+    <string name="queue_bootstrap_required">Deploy the bootstrap before running the install queue</string>
+    <string name="queue_root_required">Root access is required to run the install queue</string>
+
+    <!-- Global Toasts -->
+    <string name="toast_theme_applied">Applied %1$s theme</string>
+    <string name="toast_terminal_theme_applied">Terminal color scheme applied</string>
+    <string name="toast_language_changed">Language changed</string>
+    <string name="toast_package_queued">Added %1$s to download queue</string>
+    <string name="toast_package_remove_queued">Queued %1$s for removal</string>
+    <string name="toast_system_package_managed">System packages update with the app and cannot be installed or removed separately</string>
+    <string name="toast_package_dequeued">Removed %1$s from download queue</string>
+    <string name="toast_queue_cleared">Queue cleared</string>
+    <string name="toast_sources_refreshed">Software sources updated</string>
+    <string name="toast_source_added">Software source added</string>
+    <string name="toast_version_copied">Version info copied to clipboard</string>
+
+    <!-- Bootstrap Runtime -->
+    <string name="bootstrap_status_title">Bootstrap Runtime</string>
+    <string name="bootstrap_status_ready">Ready (%1$s)</string>
+    <string name="bootstrap_status_not_installed">Not Deployed</string>
+    <string name="bootstrap_status_corrupted">Corrupted / Incomplete</string>
+    <string name="bootstrap_status_label">Runtime Status</string>
+    <string name="bootstrap_action_install">Deploy</string>
+    <string name="bootstrap_action_reinstall">Re-deploy</string>
+    <string name="bootstrap_action_install_now">Deploy Now</string>
+    <string name="bootstrap_action_repair">Repair &amp; Re-deploy</string>
+    <string name="bootstrap_toast_installing">Deploying bootstrap runtime to /system/0vl0ad3r...</string>
+    <string name="bootstrap_toast_success">Bootstrap runtime deployed successfully (%1$s)</string>
+    <string name="bootstrap_toast_failed">Bootstrap deployment failed: %1$s</string>
+    <string name="bootstrap_auto_deploying">Bootstrap missing, automatically deploying...</string>
+    <string name="bootstrap_modal_title">Bootstrap</string>
+    <string name="bootstrap_modal_subtitle">Arch Linux ALPM Runtime (Pacman 7.1.0 / Bionic)</string>
+    <string name="bootstrap_log_idle_hint">[*] Waiting to begin deployment...\n[*] Tap "Deploy Now" below to install to /system</string>
+    <string name="bootstrap_log_corrupted_hint">[-] Corrupted bootstrap detected (missing libraries/broken ELF)\n[*] Tap "Repair &amp; Re-deploy" to clean up and reinstall</string>
+    <string name="bootstrap_deploying_label">Writing to system partition...</string>
+    <string name="bootstrap_deploy_success_hint">Bootstrap installed, package manager is ready</string>
+    <string name="bootstrap_terminal_title">root@0vl0ad3r: ~# /system/0vl0ad3r</string>
+
+    <!-- Ghost Cleanup -->
+    <string name="settings_clean_ghost_title">Clear Locks &amp; Ghost Cache</string>
+    <string name="settings_clean_ghost_subtitle">Remove db.lck lock and incomplete .part downloads</string>
+    <string name="settings_action_clean">Clean Now</string>
+
+    <!-- Bootstrap Deletion -->
+    <string name="settings_delete_bootstrap_title">Delete Bootstrap</string>
+    <string name="settings_delete_bootstrap_subtitle">Safely remove bootstrap files via whiteout manifest, preserving other data</string>
+    <string name="settings_action_delete">Delete</string>
+    <string name="dialog_delete_bootstrap_title">Delete Bootstrap?</string>
+    <string name="dialog_delete_bootstrap_message">This operation will precisely remove the underlying pacman binaries and base libraries according to the whiteout manifest, without deleting other installed packages. The whiteout manifest will also be removed upon completion.</string>
+    <string name="dialog_action_delete_confirm">Delete</string>
+    <string name="toast_deleting_bootstrap">Removing bootstrap files via whiteout manifest...</string>
+</resources>

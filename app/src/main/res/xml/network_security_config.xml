@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  软件源只允许 HTTPS。站点目前没开 HTTPS Enforced, 平台层这一道是客户端侧唯一
+  能自己保证的东西: 没有它, 一个 http:// 源或被降级的连接就能在链路上被换包。
+  包体另有 index.json 里的 sha256 兜底, 但元数据本身一旦被换, sha256 也会跟着被换。
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">r3p0.orionisli.com</domain>
+        <domain includeSubdomains="true">github.com</domain>
+        <domain includeSubdomains="true">objects.githubusercontent.com</domain>
+    </domain-config>
+</network-security-config>
